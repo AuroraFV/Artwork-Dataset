@@ -1,5 +1,3 @@
-"# Artwork-Dataset" 
-
 ## Dataset Details
 - **Wikiart**
   - The WikiArt dataset, containing over 80,000 artworks across various styles and artists. We refined it for experiments by selecting 1–2 representative works from each of 366 21st-century artists. To ensure relevance, we filtered out non-illustrative artworks, such as photography, and excessively explicit pieces, yielding a final test set of 234 images.
