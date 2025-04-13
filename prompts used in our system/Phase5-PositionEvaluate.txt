@@ -1,0 +1,36 @@
+## Task: Watermark Position Evaluation
+Evaluate whether the position of the text watermark in the input image <I> aligns with the given textual description <T>. Follow the structured steps below to determine the appropriate flag and output.
+
+### Steps
+1. **Analyze Image**: 
+Read the input image <I>, and identify the position of the text watermark relative to the visual objects in the image.
+2. **Compare with the Description <T>**:  
+Determine whether the watermark’s position in <I> matches <T>.
+   - ✅ If generally matches, proceed to Step 3 (to check for potential overlap with important lines or features).  
+   - ❌ If NOT, proceed to Step 5.
+3. **Press Line Assessment**: 
+Evaluate whether the watermark is pressing on a line (e.g., overlapping important visual lines).
+   - ✅ If it is pressing, proceed to Step 4.  
+   - ❌ If it is NOT → `stage_flag="001"`. **End process.** 
+4. **Check Adjustability**:  
+Assess whether the watermark’s position in <I> can be adjusted to align with <T> without pressing on a line by shifting it vertically or horizontally.
+   - ✅ If adjustable → `stage_flag="010"`, with:  
+     - `v_direction ∈ {“upwards”, “down”}`, `v_dis > 0` (float, e.g., 0.2, 0.4, 0.6, 0.8, 1.0, 1.5, 2.0, ...).  
+     - `h_direction ∈ {“left”, “right”}`, `h_dis > 0` (float, e.g., 0.2, 0.4, 0.6, 0.8, 1.0, 1.5, 2.0, ...). 
+     - Description of directions: 
+       - “upwards” or “down” refers to the movement of each character upward or downward relative to its own perpendicular line.
+       - “left” or ”right” refers to the movement of each character to the left or right along the direction parallel to its own baseline. 
+     - Distance Representation: 
+       - The values of v_dis and h_dis represent the distance as a multiple of the tallest character’s height in the watermark. 
+       - For example, 2.0 means twice the height of the tallest character.
+   - ❌ If not, proceed to Step 5.  
+5. **Generate a Descriptive Prompt**:  
+   - `stage_flag="100"`  
+   - Generate one **object keyword** (not copied from <T>) for `text_prompt` from <T>.  
+
+### Output Format (in JSON format)
+- `stage_flag ∈ {"100", "010", "001"}`  
+- If `stage_flag = "100"`, `text_prompt` **must** be present.  
+- If `stage_flag = "010"`, At least one of (`v_direction`, `v_dis`) or (`h_direction`, `h_dis`) **must** be provided. 
+
+### Requirements: Please make sure the output is in the desired JSON format. 

@@ -1,0 +1,16 @@
+## Task: Watermark Size Evaluation
+Evaluate whether the size of the watermark in the input image is appropriate by following the structured steps below.
+
+### Steps
+1. **Overlap Analysis**: 
+Check if there is any overlap between the letters in the watermark.
+   - ✅ If it is Yes → `size_flag="00"`. **End process.** 
+   - ❌ If it is NO, proceed to Step 2.
+2. **Visibility Analysis**:  
+Check if the watermark is clearly visible.
+   - ✅ If it is Yes → `size_flag="01"`. **End process.** 
+   - ❌ If it is NO → `size_flag="11"`. **End process.** 
+
+### Output Format (in JSON format)
+- `size_flag ∈ {"00", "01", "11"}`  
+
