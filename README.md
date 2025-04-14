@@ -7,6 +7,7 @@
   - After excluding pure line drawings, we sampled an average of 13 images per artist, resulting in a final test set of **237** images.
 - **Finedge**
   - We manually collected 200 artworks published by contemporary illustrators online, forming a new dataset named it **Finedge**.
+  - For exploratory study, we selected **24** representative artworks from Finedge as study material.
   - For objective experiments, we selected **128** test cases with clear edges suitable for the Linear Watermark pattern.
 
 ## Dataset Usage in Experiments
