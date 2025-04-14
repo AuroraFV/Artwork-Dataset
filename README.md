@@ -8,7 +8,7 @@
 - **Finedge**
   - We manually collected 200 artworks published by contemporary illustrators online, forming a new dataset named it **Finedge**.
   - For exploratory study, we selected **24** representative artworks from Finedge as study material.
-  - For objective experiments, we selected **128** test cases with clear edges suitable for the Linear Watermark pattern.
+  - For objective experiments, we selected **128** test cases with clear edges suitable for the Linear Watermark pattern, showcased in the *Finedge* folder.
 
 ## Dataset Usage in Experiments
 - The experiments without explicit specification are conducted on Conllutration (Table 1 & 4), as contemporary illustrations can better reflect the real-world use cases of our system compared to historical paintings in Wikiart, and the former is collected by experienced artists.
