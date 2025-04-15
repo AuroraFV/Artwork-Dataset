@@ -10,3 +10,8 @@
 ## Dataset Usage in Experiments
 - The experiments without explicit specification are conducted on Conllutration (Table 1 & 4), as contemporary illustrations can better reflect the real-world use cases of our system compared to historical paintings in Wikiart, and the former is collected by experienced artists.
 - Two case images presented in Figure 3 are sourced from the Finedge dataset.
+
+## Showcase of Representative Watermarked Images
+![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/Frame%201.png)
+![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/Frame%202.png)
+![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/Frame%203.png)
