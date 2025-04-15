@@ -13,5 +13,5 @@
 
 ## Showcase of Representative Watermarked Images
 ![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/1.png)
-![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/2.png)
+![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/Frame%206-1.png)
 ![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/3.png)
