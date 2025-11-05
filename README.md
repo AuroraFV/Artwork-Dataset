@@ -24,7 +24,7 @@
 If you use this dataset, please cite our paper:
 
 ```bibtex
-@inproceedings{10.1145/3746027.3754738,
+@inproceedings{AesWatermark,
   author    = {Ran, Changjuan and Liu, Fang and Fang, Runqi and Meng, Xiangyu and Cui, Shenglan and Ye, Yunfan},
   title     = {Where Watermark Meets Beauty: Expert-Guided Aesthetic Visible Watermarking for Digital Artworks},
   year      = {2025},
