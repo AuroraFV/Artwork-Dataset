@@ -31,7 +31,6 @@ If you use this dataset, please cite our paper:
   isbn      = {9798400720352},
   publisher = {Association for Computing Machinery},
   address   = {New York, NY, USA},
-  url       = {https://doi.org/10.1145/3746027.3754738},
   doi       = {10.1145/3746027.3754738},
   booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia},
   pages     = {6605--6614},
