@@ -19,3 +19,23 @@
 ![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/1.png)
 ![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/Frame%206-1.png)
 ![image](https://github.com/AuroraFV/Artwork-Dataset/blob/main/watermarked%20cases/3.png)
+
+## Citation
+If you use this dataset, please cite our paper:
+
+```bibtex
+@inproceedings{10.1145/3746027.3754738,
+  author    = {Ran, Changjuan and Liu, Fang and Fang, Runqi and Meng, Xiangyu and Cui, Shenglan and Ye, Yunfan},
+  title     = {Where Watermark Meets Beauty: Expert-Guided Aesthetic Visible Watermarking for Digital Artworks},
+  year      = {2025},
+  isbn      = {9798400720352},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3746027.3754738},
+  doi       = {10.1145/3746027.3754738},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages     = {6605--6614},
+  numpages  = {10},
+  location  = {Dublin, Ireland},
+  series    = {MM '25}
+}
